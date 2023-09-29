@@ -1,7 +1,7 @@
 Package: panelvar
 Type: Package
 Title: Panel Vector Autoregression
-Version: 0.5.5
+Version: 0.5.5-1
 Authors@R: c(
     person("Michael", "Sigmund", , "michael.sigmund@oenb.at", "aut"),
     person("Robert", "Ferstl", , "robert.ferstl@ur.de", c("aut", "cre"))
