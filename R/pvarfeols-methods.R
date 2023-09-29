@@ -27,6 +27,8 @@ pvalue.pvarfeols <- function(object, ...) {
 extract.pvarfeols <- function(model, ...) {
   co.m <- coef(model)
   modelnames <- row.names(co.m)
+  if(is.null(modelnames)) 
+    modelnames <- paste0('Model', 1:nrow(co.m))
   se.m <- se(model)
   pval.m <- pvalue(model)
   equationList <- list()
